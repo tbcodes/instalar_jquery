@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8">
+<title>Truzz Blogg - Trabajando con Jquery</title>
+
+<!-- Al poner la ruta de tu librería de Jquery, debes indicarlo siguiendo las indicaciones mostradas a continuación: 
+<script type="text/javascript" src="nombreCarpeta/jquery-extension_de_jquery.min.js"></script>
+-->
+
+ <script type="text/javascript" src="jquery/jquery-3.1.1.min.js"></script> 
+
+
+<!-- Si quieres usar el CDN de Google, este es su enlace -->
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+-->
+
+<!-- Si utilizas un archivo JavaScript externo, esta es la manera de enlazarlo, en tu documento HTML -->
+<!--
+<script type="text/javascript" src="jquery_externo.js"></script>
+-->
+
+<!--
+A continuación, te dejaremos los códigos de Jquery que hemos utilizado en el vídeo, para comprobar el correcto funcionamiento de Jquery
+-->
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		alert("Jquery se cargó correctamente");
+
+	})
+
+	$(document).ready(function() {
+     $("a").click(function(event) {
+         alert("Gracias por visitar mi canal!");
+ 
+    });
+ 
+});
+
+</script>
+
+</head>
+<body>
+
+	<h1>Cómo instalar y usar Jquery!</h1>	
+	<h2>¿Quieres poder usar Jquery en tu página web?</h2>
+	<p>En esta ocasión, te vamos a mostrar cómo se hace para instalar (cargar) y utilizar Jquery en tu documento HTML</p>
+	<p><strong>¿Qué es Jquery?</strong> Jquery es un librería de JavaScript que permite añadir una gran variedad de caracterísitcas y funcionalidades a nuestras webs, haciéndolo compatible con una gran variedad de navegadores web. </p>
+
+	<a href="https://www.youtube.com/c/truzzblogg" target="_blank">Apoya nuestro canal en Youtube: Truzz Blogg </a>
+   
+</body>
+</html>
